@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "keywords": ["babel-plugin"],
+  "keywords": [
+    "babel-plugin"
+  ],
   "author": "boopathi",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "prepack": "^0.2.0"
+  }
 }
