@@ -1,0 +1,9 @@
+{
+  "name": "babel-plugin-prepack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": ["babel-plugin"],
+  "author": "boopathi",
+  "license": "MIT"
+}
