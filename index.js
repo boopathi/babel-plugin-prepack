@@ -5,11 +5,9 @@ module.exports = function prepackPlugin({ template }) {
     visitor: {
       Program: {
         enter(path) {
-          const ast = path.node;
-          const resultAst = template(
-            prepack.prepackFromAst(ast, path.getSource()).code
+          path.node.body = template(
+            prepack.prepackFromAst(path.node, path.getSource()).code
           )();
-          path.node.body = resultAst;
         }
       }
     }
